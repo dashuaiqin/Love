@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下的时候 -->
+    <item android:state_pressed="true"><shape>
+            <solid android:color="#40ef4444" />
+
+            <stroke android:width="1dp" android:color="#53933f" />
+
+            <corners android:radius="5dp" />
+
+            <padding android:left="5dp" android:right="5dp" />
+        </shape></item>
+    <!-- 正常的时候 -->
+    <item><shape>
+            <solid android:color="#c8ef4444" />
+
+            <stroke android:width="1dp" android:color="#ff0000" />
+
+            <corners android:radius="5dp" />
+
+            <padding android:left="5dp" android:right="5dp" />
+        </shape></item>
+
+</selector>

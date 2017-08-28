@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 正常的时候 -->
+    <item android:state_enabled="true" android:state_pressed="false"><shape>
+        <solid android:color="@color/extrude_bg" />
+    </shape></item>
+    <!-- 按下的时候 -->
+    <item android:state_pressed="true"><shape>
+        <solid android:color="@color/pressed_bg" />
+    </shape></item>
+    <!-- 不能按的时候 -->
+    <item android:state_enabled="false"><shape>
+        <solid android:color="@color/disabled_bg" />
+    </shape></item>
+
+</selector>

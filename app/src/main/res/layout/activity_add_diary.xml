@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_all"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <include layout="@layout/page_title"/>
+    <TextView
+     android:id="@+id/txt_date"
+     android:layout_width="match_parent"
+     android:textColor="@color/tc_secend"
+     android:textSize="@dimen/sp16"
+        android:gravity="center"
+        android:padding="@dimen/dp10"
+        android:background="@color/white"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/tc_secend"
+        android:textSize="@dimen/sp18"
+        android:padding="@dimen/dp10"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_height="match_parent" />
+</LinearLayout>
