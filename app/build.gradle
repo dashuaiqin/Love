@@ -4,7 +4,7 @@ android {
 
 //编译sdk的版本
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '25.0.0'
 
 //**bmob-sdk:3.4.6版本依赖包，用于兼容Android6.0系统**
     useLibrary 'org.apache.http.legacy'
@@ -73,8 +73,8 @@ dependencies {
 //    compile 'com.squareup.okhttp:okhttp:2.4.0'//自`V3.4.3版本`开始，使用`okhttp`优化SDK的网络框架
 //    compile 'com.squareup.okio:okio:1.4.0'
 
-    compile files('libs/gson-2.5.jar')
-    compile files('libs/jsonanimation.jar')
+//    compile files('libs/gson-2.5.jar')
+//    compile files('libs/jsonanimation.jar')
     compile files('libs/AMap_3DMap_V3.3.0_20160331.jar')
 
 

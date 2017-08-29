@@ -7,7 +7,7 @@ import android.view.View;
 import java.util.List;
 
 /**
- * 表情viewpager的适配器
+ * 表情viewpager的适配器，需修改
  */
 public class EmoViewPagerAdapter extends PagerAdapter{
 

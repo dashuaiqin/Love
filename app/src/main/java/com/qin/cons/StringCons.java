@@ -25,6 +25,7 @@ public class StringCons {
     public static String TITLE_ADD_MEMORY_DAY="添加纪念日";
     public static String TITLE_UPDATE_MEMORY_DAY="编辑纪念日";
     public static String TITLE_TIME="拾光";
+    public static String TITLE_CUT_PIC="图片裁剪";
     public static String TITLE_CENTER="个人中心";
     public static String TITLE_USER_DATA="个人资料";
     public static String TITLE_GET_LOCATION="位置";

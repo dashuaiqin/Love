@@ -21,9 +21,6 @@ import com.qin.Utils.ImageUtils;
 import com.qin.love.R;
 
 
-/**
- * Created by jimstin on 2015/5/12.
- */
 public class CutPicView extends ImageView {
 
 	private PointF mDownPoint;
