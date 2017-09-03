@@ -137,7 +137,7 @@ public class AddDiaryActivity extends BaseActivity {
         Diary diary = new Diary();
         diary.setContent(content);
         diary.setSendDate(BmobDate.createBmobDate("yyyy-MM-dd HH:mm:ss", TimeUtils.getDateTime()));
-        diary.setLocation("成都");
+        diary.setLocation("成都");//暂时写死
         diary.setWeather("晴");
         diary.setUserId(MyApplication.getInstance().getMyUser().getObjectId());
         startProgressDialog("正在保存日记...");
